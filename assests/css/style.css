@@ -79,7 +79,7 @@
      * gradient
      */
   
-    --gradient: radial-gradient(circle, hsl(250, 7%, 17%), hsl(250, 11%, 11%));
+    --gradient: radial-gradient(circle, hsl(250, 5%, 74%), hsl(250, 11%, 11%));
   
     /**
      * box shadow
@@ -121,6 +121,7 @@
   a {
     text-decoration: none;
     color: inherit;
+    padding-right: 2em;
   }
   
   a,
@@ -1692,3 +1693,12 @@
     .footer .container { grid-template-columns: 1fr 0.7fr 0.7fr 1fr; }
   
   }
+
+
+  .container i {
+    font-size: 3rem;
+    font-weight: 900;
+    /* padding-left: 12px; */
+    color: rgb(129, 136, 136);
+}
+
